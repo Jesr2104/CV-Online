@@ -1,17 +1,25 @@
-#mainBlock{
-    display: flex;
-    size: A4;
-    width: 2480px;
-    height: 3508px;
-    box-shadow: 10px 10px 5px #888888;    
+*{
+    margin: 0;
+    padding: 0;
 }
 
-#blockA{
-    width: 30%;
-    background-color: rgb(68, 93, 231);
+#title{
+    text-align: center;
+    color: #707070;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#blockB{
-    width: 70%;
-    background-color: rgb(57, 61, 84);
+#container{
+    height: 100%;
+}
+
+#pdfviewer{
+    margin: auto;
+    display: block;
+    width: 1024px;
+
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
