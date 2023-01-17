@@ -1,0 +1,17 @@
+#mainBlock{
+    display: flex;
+    size: A4;
+    width: 2480px;
+    height: 3508px;
+    box-shadow: 10px 10px 5px #888888;    
+}
+
+#blockA{
+    width: 30%;
+    background-color: rgb(68, 93, 231);
+}
+
+#blockB{
+    width: 70%;
+    background-color: rgb(57, 61, 84);
+}
